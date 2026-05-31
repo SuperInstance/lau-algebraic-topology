@@ -1,0 +1,13 @@
+[package]
+name = "lau-algebraic-topology"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-algebraic-topology"
+description = "Fundamental algebraic topology: simplicial/singular homology, cohomology, Mayer-Vietoris, Poincaré duality, homotopy groups, CW complexes, and agent network topology analysis"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+
+[dev-dependencies]
